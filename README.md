@@ -8,6 +8,13 @@ You wake up trapped inside a mysterious house. Explore different rooms, collect 
 
 This project is being developed as a learning project to practice C programming, problem-solving, and project structuring.
 
+## Gameplay
+
+Explore the 4 rooms to find items and clues.
+Solve the keypad puzzle in the basement.
+Unlock the chest, find the hidden key, and escape!
+You have 3 attempts on the code. Choose wisely.
+
 ## Features
 
 - Text-based gameplay
@@ -24,17 +31,10 @@ This project is being developed as a learning project to practice C programming,
 - GCC Compiler
 - Git & GitHub
 
-Project Status
+## Project Status
 
- Currently in development
-
-## Planned features include:
-
-- Flashlight system
-- Secret code puzzle
-- Locked chest mechanics
-- Multiple endings
-- Improved gameplay experience
+Playable version completed.
+Future updates and additional puzzles may be added.
 
 ## How to Run
 
