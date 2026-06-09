@@ -4,7 +4,7 @@ A text-based escape room game built in C.
 
 ## About
 
-You wake up trapped inside a mysterious haunted house. Explore different rooms, collect items, uncover clues, solve puzzles, and find a way to escape before it's too late.
+You wake up trapped inside a mysterious house. Explore different rooms, collect items, uncover clues, solve puzzles, and find a way to escape before it's too late.
 
 This project is being developed as a learning project to practice C programming, problem-solving, and project structuring.
 
