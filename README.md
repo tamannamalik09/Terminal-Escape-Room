@@ -37,7 +37,7 @@ You have 3 attempts on the code. Choose wisely.
 
  | 
 
-![](screenshots/Ending.png)
+![](screenshots/Ending.jpg)
 
  |
 ## Features
