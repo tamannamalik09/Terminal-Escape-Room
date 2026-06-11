@@ -15,6 +15,31 @@ Solve the keypad puzzle in the basement.
 Unlock the chest, find the hidden key, and escape!
 You have 3 attempts on the code. Choose wisely.
 
+## Gameplay Screenshots
+
+| Main Menu | Clue Discovery |
+|-----------|---------------|
+| 
+
+![](screenshots/start_screen.png)
+
+ | 
+
+![](screenshots/Puzzle_room.png)
+
+ |
+
+| Basement Puzzle | Escape! |
+|-----------------|---------|
+| 
+
+![](screenshots/solve_puzzle_room.png)
+
+ | 
+
+![](screenshots/Ending.png)
+
+ |
 ## Features
 
 - Text-based gameplay
