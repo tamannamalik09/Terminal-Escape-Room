@@ -1,5 +1,6 @@
 // TERMINAL ESCAPE ROOM
 #include<stdio.h>
+#include<conio.h>
 // Global variables
 int hasFlashlight = 0;
 int hasNote = 0;
@@ -48,7 +49,7 @@ void mainHall()
     }
     else if(hasChestKey && !hasKey)
     {
-        printf("The chest is open.\n");
+        printf("Yeah you got the chest key.The chest is now open.\n");
         printf("You got the hidden key.\n");
         hasKey = 1;
     }
@@ -59,16 +60,30 @@ void mainHall()
 }
 void basement()
 {
-    if(hasFlashlight == 0)
+    if(hasFlashlight == 0 )
     {
         printf("OOPs! You don't have flashlight.\nIt's too dark here.Go find flashlight and come back.\n");
     }
-    if(hasFlashlight == 1)
+    if(hasFlashlight == 1 && hasNote == 0)
     {
         printf("\nYou swept the flashlight beam across the dark basement.\n");
         printf("You discovered a Keypad on the wall.\n");
-        printf("It requires a 3 digit code.Put the right code and you'll unlock the chest.\n");
-        codeMatch();
+        printf("Go find the mysterious note to decode the code for this keypad\n");
+        printf("(HINT: Note will be found where knowledge resides)\n");
+    }
+    if(hasFlashlight == 1 && hasNote == 1)
+    {
+        if(hasChestKey == 1)
+        {
+            printf("\nNothing useful remains here.\n");
+        }
+        else
+        {
+            printf("You found a Keypad!\n");
+            printf("It hides the chest key.\n");
+            printf("The keypad requires a 3 digit code.\nPut the right code and you'll unlock the chest.\n");
+            codeMatch();
+        }
     }
 }
 void door()
@@ -180,5 +195,6 @@ int main()
                 break;
         }
     }//while ends here
+    getch();
     return 0;
 }
